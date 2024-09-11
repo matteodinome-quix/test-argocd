@@ -5,6 +5,6 @@ metadata:
   namespace: myapp
 data: 
   test.conf: |
-    digitalOceanToken = $digitalOceanToken
+    digitalOceanToken = "{{ .Values.externalVariables.digitalOceanToken }}"
     enableAwesome = "true"
     version = "v2"
