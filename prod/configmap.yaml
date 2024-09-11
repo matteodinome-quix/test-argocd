@@ -1,0 +1,10 @@
+apiVersion: v1 
+kind: ConfigMap
+metadata:
+  name: myconfig
+  namespace: prd
+data: 
+  test.conf: |
+    title = "Example Config"
+    enableAwesome = "true"
+    version = "v2"
