@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: nanajanashia/argocd-app
+  tag: "1.2"
+
+service:
+  name: myapp-service
+  port: 8080
+  targetPort: 8080
+  protocol: TCP
