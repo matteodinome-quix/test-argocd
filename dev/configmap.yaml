@@ -5,6 +5,6 @@ metadata:
   namespace: myapp
 data: 
   test.conf: |
-    title = "Example Config"
+    digitalOceanToken = {{ .Values.digitalOceanToken  }}
     enableAwesome = "true"
     version = "v2"
